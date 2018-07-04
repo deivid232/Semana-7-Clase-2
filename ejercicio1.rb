@@ -15,37 +15,37 @@
 
  a = [1, 2, 3, 9, 1, 4, 5, 2, 3, 6, 6]
 
-#1
- b = a.map { |e|  e+1}
- print b
+# #1
+#  b = a.map { |e|  e+1}
+#  print b
+# #
+# # #2
+# c = a.map { |e| e.to_f }
+# print c
+# #
+# # #3
+# d = a.map { |e| e.to_s }
+# print d
 #
-# #2
-c = a.map { |e| e.to_f }
-print c
+# #4
+# f = a.reject { |e| e < 5  }
+# print f
 #
-# #3
-d = a.map { |e| e.to_s }
-print d
-
-#4
-f = a.reject { |e| e < 5  }
-print f
-
-#5
-g = a.select { |e| e < 5 }
-print g
+# #5
+# g = a.select { |e| e < 5 }
+# print g
 
 #6
 h = a.inject { |n, sum| sum + n}
 print h
 
-#7
-j = a.group_by{ |e| e.even? }
-print j
-
-#8
-k = a.group_by{ |e| e > 6}
-print k
+# #7
+# j = a.group_by{ |e| e.even? }
+# print j
+#
+# #8
+# k = a.group_by{ |e| e > 6}
+# print k
 
 
 

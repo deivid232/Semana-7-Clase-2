@@ -23,22 +23,24 @@ a = nombres
 
 
 #2
-# b = a.map { |e| e.downcase  }
+# b = a.map{ |e| e.downcase  }
 # print b
 
-#3
-c = a.select { |e| e =~ /[P]/ }
-print c
-
+# #3
+# c = a.select { |e| e =~ /[pia]/ }
+# print c
 
 #4
+
 # a.map do|j|
 #   c = j.length
 #   puts "#{j} #{c}"
 # end
+# print a.map { |e| e - "aeiou"}
+# print a.length
 
 #5
-#print a.map{ |e| e.gsub(/["AaEeIiOoUu"]/, '')}
+# print a.map{ |e| e.gsub(/["AaEeIiOoUu"]/, '')}
 
 
 
